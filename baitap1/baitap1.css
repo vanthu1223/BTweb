@@ -1,0 +1,29 @@
+#h1{
+    color: red;
+    text-align: center;
+    border: 1px;
+}
+.table_1 .t2{
+    background-color: aqua;
+}
+.t3{
+    background-color: brown;
+}
+.t2{
+    background-color: aqua;
+}
+.table_1,tr,td{
+    width: 552px;
+    height: 344px;
+    border: 1px solid ;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    background-color: yellow;
+}
+.table_1 tr:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    /* đổi màu của bảng */
+}

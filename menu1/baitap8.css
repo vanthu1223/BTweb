@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(hinh.jpg);
+}
+.main{
+    width: 30%;
+    height: 30%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px;
+    border: 2px solid black;
+    margin-left: 0;
+    background-position: center;
+    padding: 20px 20px;
+}
+.main h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.first-name{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.second-name{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.phone-no{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.Password{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.Email-ID{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.First-name-1{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.main .First-name-1 i{
+    margin-left: 10px;
+    align-items: center;
+    border: none;
+    width: 40px;
+    height: 39px;
+    margin-top: 15px;
+    background: orangered;
+    text-align: center;
+    padding: 10px; 
+}
+.main label{
+    padding: 20px;
+}
+
+.main i{
+    background-color: orangered;
+    padding-bottom: 15px;
+}
+.main input[type=text]{
+    margin-top: 15px;
+    padding: 10px;  
+}
+.main input[type=radio]{
+    margin-top: 15px;
+    align-content: center;
+    accent-color: orangered;
+}
+
+.main input[type=checkbox]{
+    margin-top: 15px;
+    accent-color: orangered ; 
+}
+
+.oki{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content:flex-end;
+}
+.button button{
+    margin-top: 15px;
+    background-color: orangered;
+    width: 50px;
+    height: 30px;
+    border: none;
+    margin-right: 30px;
+}
+.button button:hover{
+    font-weight: 1px;
+}
+
+
+
+    
+
+

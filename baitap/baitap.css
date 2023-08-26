@@ -1,0 +1,18 @@
+.submit input{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid black;
+}
+.select{
+    background-color: red;
+    border: 1px  solid;
+}
+.radio{
+    accent-color: blue;
+}
+.comments textarea{
+    background-color: bisque;
+
+}

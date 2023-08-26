@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.main{
+    border: 2px solid green;
+    padding: 30px 30px;
+    border-radius: 2px;
+    backdrop-filter:blur(20px);
+    box-shadow: 0px 2px 4px black;
+}
+.account h1{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+.account .account-form{
+    background-color: beige;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 5px #888888;
+}
+.account .account-form input{
+    width: 200px;
+    outline: none;
+    border: none;
+    height: 28px;
+    padding-left: 3px;
+    background-color:beige;
+    margin-bottom: 10px;
+
+}
+.account .account-form i{
+    border-right: 1px solid black ;
+    padding-right: 10px;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+}
+.birthday{
+    display: flex;
+    margin: 10px;
+    
+}
+.birthday .birthday-cake h3{
+    color:green;
+    padding-right: 50px; 
+} 
+.birthday .birthday-cake input{
+    width: 50px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 5px #888888;
+    outline: none;
+    border: none;
+}
+.birthday .Gender h3{
+    color: green;
+    padding-left: 10px;
+}
+.birthday .Gender input{
+    width: 50px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    outline: none;
+    box-shadow: 0px 2px 5px #888888;
+    
+}
+.birthday .Gender input:hover{
+    background-color: green; 
+    cursor: pointer;
+    accent-color: green;
+}
+.credit{
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px #888888;
+}
+.credit-card{
+    background-color: beige;
+    border-right:1px solid ;
+    height: 30px;
+    width: 150px;
+}
+.credit-card:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+.credit-card i{
+    text-align: right;  
+}
+.Pay-card{
+    background-color: beige;
+    border-radius: 3px;
+    height: 30px;
+    width: 150px;
+}
+.Pay-card:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+.CardNumber{
+    background-color: beige;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 2px 5px #888888;   
+}
+.CardNumber input{
+    background-color: beige;
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.CardNumber i{
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+.CardCVC form{
+    display: flex;
+}
+.CardCVC .Card-1{
+    background-color: beige;
+    width: 180px;
+    height: 30px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 5px #888888;
+}
+.CardCVC .Card-1 input{
+    width: 160px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding-left:15px ;
+} 
+.CardCVC .Card-1 i{
+    padding-left: 7px;
+}
+.CardCVC select{
+    display: inline;
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+

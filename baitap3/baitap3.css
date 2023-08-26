@@ -1,0 +1,76 @@
+.name1{
+    text-align: center;
+    text-decoration: solid;
+}
+table{
+    border-width: 1px solid ;
+    margin: auto;
+    border-collapse: collapse;
+    width: 711px;
+    height: 545px;
+    text-align: center;
+}
+.name1_1{
+    text-decoration:  3px solid;
+    background-color: 	#FFFACD;
+}
+.class1{
+    width: 65px;
+    height: 35px;
+    background-color:#FFFACD;
+    text-align: center;
+    border-radius: 1px;
+    margin: auto;
+}
+.class1:hover{
+    background-position: center;
+    cursor: pointer;
+    background-color: red
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 1260px;
+    height: 43;
+    border-radius: 7px;
+    font-size: 17px;
+    color: white;
+    margin: auto;
+}
+.class_1{
+    overflow: hidden;
+    background: #484848;
+}
+.class_1 a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.class_1 a:hover{
+    font-size: 19px;
+    color: azure;  
+}
+nav ul li form{
+    float: right;
+}
+.class_1 input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+nav ul li form button{
+    padding: 6px;
+    margin-top:8px ;
+    font-size: 17px;
+    border: none;
+}
+

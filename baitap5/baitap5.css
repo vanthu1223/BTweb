@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 7px;
+}
+.class_div1 nav ul .img1{
+    padding: auto;
+}
+.classdiv1 nav ul{
+    background-color: white;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    float: left;
+    width: 1300px;
+    height: 43px;
+    padding-top: 15px;
+}
+nav{
+    margin: 0 auto;
+}
+.classdiv1 nav ul li a{
+    text-decoration: none;
+    color: black;  
+}
+.classdiv1>nav>ul>li:hover{
+    color: red  ;
+    box-shadow: 0 2px red;
+    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.class_div1{
+    padding-left: 10px;
+    margin-left: 50px;
+    padding: auto;
+    text-align: center;
+}
+.classdiv1 .img1{
+    padding-bottom: 15px;
+}
+.classdiv2 nav ul {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 5px;    
+}
+.classdiv2 nav ul li{
+    list-style: none;
+    background-color: white;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+}
+.classdiv2 nav ul li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.classdiv2 i {
+    color: red;
+    padding-right: 0pxpx;
+    text-align: left;
+
+}
+.classdiv2 .name1{
+    padding-top: 105px;
+}
+.classdiv2 .name2{
+    padding-top: 45px;
+}
+.classdiv2 .name3{
+    padding: 0px;
+}
+.classdiv2 .name3 a{
+    text-decoration: none;
+}
+
+.classdiv2 ul li .imag4{
+    width: 100px;
+}
+.classdiv1 ul.sub-menu{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0;
+    display: block;
+    text-align: left;
+    display: none;
+}
+.classdiv1 li:hover ul.sub-menu{
+    display: block;
+} 
+.classdiv1 li{
+    position: relative;
+}
+.classdiv1 ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.classdiv1 ul.sub-menu a:hover{
+    font-size: 15px;
+    border-bottom:  1px solid whitesmoke;
+}
+.classdiv1 ul.sub-menu li:last-child a{
+    border: none;
+}
+.classdiv1>li.has_child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color: black;
+    top:0px;
+    right: 0px;
+    padding: 18px 0px;
+}
+.classdiv1>li:hover>a::before{
+    width: 100%;
+}
+
+
