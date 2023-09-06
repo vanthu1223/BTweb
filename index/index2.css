@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    color: orangered;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin-top: 10px;
+}
+.header-left{
+   text-align: center;
+
+}
+.header-right{
+    text-align: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 30% 60%;   
+}
+.main .left{
+    border: 1px solid beige;
+    padding-left: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.left a:hover{
+    font-size: 15px;
+    border:#fff;
+    color: green;
+    background-color: antiquewhite;
+}
+.main .left li{
+    list-style-type: none;
+}
+.main .left a{
+    text-decoration: none;
+    color: black;
+}
+.main .left  i{
+    padding-left:100px;
+}
+.main .right{
+    display: flex;
+    margin-left: 50px;
+}
+
+.ao1{
+    border: 1px solid beige;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 3px; 
+    justify-content: center; 
+    margin-left: 10px;
+}
+.ao2{
+    border: 1px solid beige;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 3px; 
+    justify-content: center;
+}
+.ao3{
+    border: 1px solid beige;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 3px; 
+    justify-content: center;
+}
+ .main img{
+    padding-top: 20px;
+} 
+.main .mony{
+    color: orangered;
+    text-shadow: 1px 3px 3px #fff;
+   font-weight: bold;
+}
+.main button{
+    border-radius: 3px;
+    border: none;
+    padding: 10px 10px;
+}
+.main button:hover{
+    font-size: 13px;
+    background-color: red;
+    cursor: pointer;
+} 
+
+

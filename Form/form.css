@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: url('hinh.jpg')no-repeat;
+    background-size: cover;
+}
+.tong{
+    width: 1100px;
+    height: 500px;
+    box-shadow: 0 0 5px;
+    border: 0.2px solid beige;
+    margin-left: 0;
+    background-position: center;
+    padding: 20px 20px;
+    box-sizing: border-box; 
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 45% 50%;
+}
+h5{
+    font-size: 15px;
+}
+.header p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.left{
+    border: 2px solid oldlace;
+    box-shadow: 1px 2px 3px gray;
+    padding: 20px 20px;
+}
+input[type=checkbox]{
+    accent-color: orangered;
+}
+.center{
+    padding-top: 10px;
+    display: flex;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.center p{
+    padding-bottom:10px;
+}
+.center select{
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 0.5px solid gray;
+    background-color:beige;
+}
+.center input[type=text]{
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 0.5px solid gray;
+    outline: none;  
+    background-color:beige;
+}
+.center .third{
+    padding-left: 10px;  
+}
+.center select:hover{
+    background-color: orange;
+}
+.last button{
+    padding: 10px 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.last .countinue {
+    margin-left: 100px;
+}
+.last button:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+.right{
+    border: 2px solid oldlace;
+    box-shadow: 1px 2px 3px gray;
+    padding: 20px 20px;
+    margin-left: 50px;
+}
+.right1{
+    background-color: beige;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.right1 i{
+    padding-left: 10px;
+}
+
+.right1 input[type=text]{
+    display: inline;
+    padding: 5px 5px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: beige;
+    padding-left: 18px;
+    
+} 
+button {
+    padding: 10px 10px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+}
+.after{
+    margin-left: 100px;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+
+
+
