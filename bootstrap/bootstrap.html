@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="bootstap.js">
+  <style>
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  
+<div class="container-fluid mt-3">
+  <div class="row">
+    <div class="left">
+      <div class="logo-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/024/554/933/original/shopee-logo-white-free-png.png" width="100px" height="100px" style="margin-right: 20px;">
+        <div class="dropup">
+          <button type="button" class="btn btn-outline-dark dropdown-menu-dark m-lg-2" data-bs-toggle="dropdown">
+            Country
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Việt Nam</a></li>
+            <li><a class="dropdown-item" href="#">USA</a></li>
+            <li><a class="dropdown-item" href="#">Lào</a></li>
+          </ul>
+        </div> 
+        <div class="dropup">
+          <button type="button" class="btn btn-outline-dark dropdown-menu-dark dropdown-toggle" data-bs-toggle="dropdown">
+            Dollar
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Viet Nam</a></li>
+            <li><a class="dropdown-item" href="#">USA</a></li>
+            <li><a class="dropdown-item" href="#">Canada</a></li>
+          </ul>
+        </div>
+        <div class="col-10 d-flex justify-content-center">
+          <ul class="nav">
+            <li class="nav">
+              <button type="button">
+                <a class="btn btn-outline-warning border-0" href="#">Home</a>
+              </button>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Shopper</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled dropdown-backdrop" href="#">Contact</a>
+            </li>
+          </ul> 
+        </div>
+        
+      </div>
+    </div>
+    <hr>
+    <div class="right">
+      <div class="col p-1"><ul class="pagination pagination-lg">
+        <li class="page-item"><a class="page-link" href="../boostrapitem/item.html"  class="btn-outline-dark">Account <i class="bi bi-person"></i></a></li>
+        <li class="page-item"><a class="page-link" href="#">Wishist <i class="bi bi-fullscreen"></i></a></li>
+        <li class="page-item"><a class="page-link" href="#">Checkout<i class="bi bi-bag-check"></i></a></li>
+        <li class="page-item"><a class="page-link" href="#">Cart<i class="bi bi-cart-dash"></i></a></li>
+        <li class="page-item"><a class="page-link" href="#">Login<i class="bi bi-box-arrow-in-right"></i></a></li>
+       
+        <div class="search-box justify-content-end">
+          <form class="search-form" >
+            <input class="form-control" placeholder="Search.." type="text">
+        </div>
+      </ul>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-5 ">
+    <h1 class="custom-padding m-lg-2"><b style="background-image: linear-gradient(to right, #F7CE68, #FBAB7E);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;">E-SHOPPER
+
+    </b></h1>
+  <h2 class="custom-padding">100% Responsive Design</h2>
+  <p class="custom-padding ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consequuntur molestiae voluptatibus. Iste amet nesciunt ut ipsa aperiam ex placeat mollitia. Totam eaque cum eum aut ut reprehenderit sunt nobis!</p>
+  <button type="button" class="btn btn-warning m-5">Get it now</button>
+  </div>
+  <div class="col-sm-7 p-2">
+    <img src="hoamds-removebg-preview.png">
+  </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light</title>
+    <style>
+
+    img{
+	margin-left: 40%;
+	margin-top: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="color">
+        <button onclick="myFunctionGreen()">Green</button >
+            <button onclick="myFunctionYellow()">Yellow</button>
+            <button onclick="myFunctionRed()">Red</button><br>
+            <img id="demo" src="green.png">
+    </div>
+    <script>
+        function myFunctionGreen(){
+            document.getElementById('demo').src="green.png";
+        }
+        function myFunctionRed(){
+            document.getElementById('demo').src="red.png";
+        }
+        function myFunctionYellow(){
+            document.getElementById('demo').src="yellow.png";
+        }
+    </script>
+</body>
+</html>

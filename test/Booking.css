@@ -10,13 +10,6 @@ img{
  .colum1 .title{
     display: flex;
 }
-.colum1 .title .imge{
-    border: 1px solid black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    border-radius: 180px;
-}
 .colum1 img{
     width: 30px;
     padding: 10px;
@@ -31,13 +24,10 @@ h2{
     display: flex;
     font-size: 18px;
 }
-
 .colum1{
     flex: 30%;
     width: 50px;
-    margin: 20px;
-
-    
+    margin: 20px;    
 }
 .colum1 .container{
     display: flex;    
@@ -48,14 +38,7 @@ h2{
     margin: 20px;
     padding-bottom: 5px;
     border-radius: 7px;
-    border: 1px solid black;
-    
-}
-.text button{
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    
+    border: 1px solid black;   
 }
 .colum1 .paragrap{
     display: flex;
@@ -76,7 +59,6 @@ h2{
     border-bottom: 1px solid black; 
 }
 .colum1 .paragrap1 .icon{
-    /* border: 1px solid black;  */
     width: 60px;
 }
 .paragrap1 .icon i{
@@ -100,6 +82,7 @@ h2{
 
 .colum2{
     margin-top: 70px;
+    margin-right: 10px;
     flex: 8%;
     border-radius: 5px;
     border: 1px solid black;
@@ -121,22 +104,16 @@ h2{
 }
 .colum2 .row12{
     border: 1px solid rgb(177, 172, 172);;
-    padding-left: 40px;
-    padding-right: 111px;
     height: 50px;
-
-
+    width: 100%;
 }
 .colum2 .row2 select{
-    width: 586px;
+    width: 100%;
     border: 1px solid rgb(177, 172, 172);;
     height: 50px;
-    /* border-radius: 5px; */
-
 }
 .colum2 button{
-    margin-left: 40px;
-    width: 594px;
+    width: 100%;
     height: 50px;
     margin-top: 40px;
     background-color: red;
@@ -161,84 +138,14 @@ h2{
     padding-right: 40px;
 }
 
-
-
 @media only screen and (max-width: 768px ) {
     .super{
         display: flex;
         flex-wrap: wrap;
+        padding-right: 10px;
+    }}
+    @media only screen and (max-width: 375px ){
+        .colum2{
+            margin-left: 10px;
+        }
     }
-    .colum2 .title1{
-        display: flex;
-        justify-content: space-between;
-        margin: 30px;
-    }
-    .colum2 .title1 .money{
-        margin-left: 40px;
-    }
-    .colum2 .title1 .avaluate{
-        margin-right: 40px;
-    }
-    
-    .colum2{
-        margin-top: 70px;
-        flex: 8%;
-        border-radius: 5px;
-        border: 1px solid black;
-        background-color: whitesmoke;
-        box-shadow:1px 1px 1px 5px #AAA;
-        margin-left: 10px;
-        width:739px;
-        height: 534px;;
-    }
-    .colum2 .table{
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 40px;
-        border-radius: 3px;
-        border: 1px solid black;
-    
-    }
-    .colum2 .row1{
-        display: flex;
-        border-radius: 5px;
-        text-align: center;
-    }
-    .colum2 .row12{
-        border: 1px solid rgb(177, 172, 172);;
-        padding-left: 40px;
-        padding-right: 111px;
-        height: 50px;
-    
-    
-    }
-    .colum2 .row2 select{
-        width: 586px;
-        border: 1px solid rgb(177, 172, 172);;
-        height: 50px;
-        /* border-radius: 5px; */
-    
-    }
-    .colum2 button{
-        margin-left: 40px;
-        width: 594px;
-        height: 50px;
-        margin-top: 40px;
-        background-color: red;
-        border-radius: 7px;
-    
-    }
-    .colum2 p{
-        margin-top: 30px;
-        text-align: center;
-    }
-   
-    .text button{
-        align-items: center;
-        padding-left: 10px;
-        margin-right:5px;
-    }
-    
-    
-}
-

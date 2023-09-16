@@ -1,0 +1,30 @@
+/* body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  } */
+.right a{
+    color: black;
+    border: none;
+    font-size: 17px;
+}
+.custom-padding{
+    padding-left: 20px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+  .custom-padding{
+    padding-left: 20px;
+  }
+
+
+

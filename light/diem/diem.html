@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Điểm của em</title>
+    <link rel="stylesheet" href="diem.js">
+    <style>
+        .main{
+            border: 2px solid brown;
+            justify-content: center;
+            max-width: 100vh;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>BẢNG ĐIỂM CỦA EM</h1>
+        <div class="input">
+            <div class="row" style="margin-bottom: 10px;">
+                <span>Điểm TB 1:</span> <input type="text" name="" id="input-1">   
+            </div> 
+        </div>
+        <div class="input">
+            <div class="row">
+                <span>Điểm TB 2:</span> <input type="text" name="" id="input-2">   
+            </div>
+        </div>
+        <div class="input">
+                <div class="row" style="margin-top: 10px;">
+                    <span>Năm :</span>
+                        <select name="" id="select" style="color: red; width: 50px;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+        </div>
+        <div class="input">
+            <div class="row" style="margin-top: 10px;">
+                    <span>Kết quả :</span>
+                    <input type="text " name="result" id="result" size="40" disabled="true">
+            </div>
+        </div>
+        <div class="input">
+            <div class="row" style="height: 20px;">
+                <p id="display"></p>
+            </div>
+        </div>
+        <button onclick="myFunction()" style="background-color:red; border: none; border-radius: 5px; padding: 10px; margin-top: 10px;margin-bottom: 10px;">Click Me </button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Please choose 1 or 2 or 3 button below</h2>
+    <button onclick="myFunction1()">Hello</button>
+    <button onclick="myFunction2()">Rectango</button>
+    <button onclick="myFunction3()">Square</button>
+    <p id="demo1">My name is Thu. Welcome</p>
+    <p id="demo2">Your Rectango : </p>
+    <p id="demo3"> Your Square :</p>
+
+    <script>
+        function myFunction1(){
+            var b=prompt("Enter your name ? ");
+            document.getElementById('demo1').innerHTML=alert(demo1);
+            
+        }
+        function myFunction2(){
+            var a1=prompt("Enter a :");
+            var a2=prompt("Enter a2 :");
+            function Rectango(a1,a2){
+                return a1*a2;
+            }
+            var result=Rectango(a1,a2);
+            document.getElementById("demo2").innerHTML="Your Rectango :"+result;
+        }
+        function myFunction3(){
+            var a=prompt("Enter square :");
+            function square(a){
+                return a*2;
+            }
+            var result1=square(a);
+            document.getElementById("demo3").innerHTML="My result is "+result1;
+        }
+    </script>
+
+
+</body>
+</html>

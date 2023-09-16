@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please Enter number</h1>
+    <input type="number" name="nhap" id="enter">
+    <button onclick="myFunction()">try it</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            // var number=document.getElementById("enter").value;
+            var number=document.querySelector("input[name='nhap']").value;
+            // var number=tenform.tenname.value
+            var element;
+            if(number==0){
+                element=" This is number 0";
+                
+            }
+            else if(number>0){
+                element="This is so duong";
+            }
+            else{
+                element="This is so am";
+            }
+            document.getElementById("demo").innerHTML=element;
+        }
+        
+    </script>
+</body>
+
+</html>
