@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product</title>
+    <style>
+        *{
+            padding: 10px;
+            
+        }
+        body{
+            max-width: 100vh;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>New Product</h1>
+        <form id="input">
+            <label>Product Name</label>
+            <input type="text" name="input-1" id="product">
+            <label>Quantity</label>
+            <input type="number" id="quantity"><br>
+            <label>Unit Price</label>
+            <input type="number" id="price">
+            <label>Discount</label>
+            <input type="number" id="count">  
+        </form>
+        <button onclick="mySell()" type="button" style="padding: 10px;background-color: red;">Sell</button>
+        <button style="padding: 10px;background-color: burlywood;">Cancel</button>
+        <table id="tbl">
+            <tr>
+                <th><b>ID</b></th>
+                <th><b>Product Name</b></th>
+                <th><b>Quantity</b></th>
+                <th><b>Unit Price</b></th>
+                <th><b>Discount</b></th>
+                <th><b>Subtotal</b></th>
+            </tr>
+        </table>
+        <script >
+            var id=0;
+            function mySell(){
+                id++;
+                var product=input.product.value;
+                var quantity=input.quantity.value;
+                var price=input.price.value;
+                var count=input.count.value;
+                var subTotal=price*quantity*(1-count/100);
+                var kq="<tr>";
+                kq+="<th>"+id+"</th>";
+                kq+="<th>"+ product+"</th>";
+                kq+="<th>"+quantity+"</th>";
+                kq+="<th>$"+price+"</th>";
+                kq+="<th>"+count+"</th>";
+                kq+="<th>"+subTotal+"</th>";
+                document.getElementById("tbl").innerHTML+=kq;
+            }
+        </script>
+    </div>
+</body>
+</html>

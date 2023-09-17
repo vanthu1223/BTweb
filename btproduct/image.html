@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn ảnh từ thư viện</title>
+</head>
+<body>
+    <form id="input">
+        <p>
+            <label>Product Name</label>
+            <input type="text" name="" id="product">
+        </p>
+        <p>
+            <label>Product Picture: </label>
+            <input type="file" id="img" required >
+        </p>
+        <p>
+            <label>Product Price : </label>
+            <input type="text" id="price">
+        </p>
+    </form>
+    <button onclick="myAdd()" style="padding: 10px;background-color: aqua;">Add</button>
+    <hr>
+    <h3>Điện thoại nổi bật nhất</h3>
+    <hr class="new">
+    <div class="row" style="padding-left: 20px;">
+    </div>
+
+    <script>
+        function myAdd(){
+            var name = document.getElementById("product").value;
+            var img = document.getElementById("img").value;
+            var price = document.getElementById("price").value;
+            let image = img.slice(11);
+            var html = `<div class="card"><img class="card-img-top" src="/image/img/${image}" alt="card image"></div><div class="card-body"><h5 class="card-name">${name}</h5><p class="card-text" id="price">${price}</p><a href="#" class="btn btn-success">Buy it</a></div>`;
+            let app = document.querySelector('.row');
+            app.innerHTML += html;
+            console.log(img);
+        }
+    </script>
+</body>
+</html>

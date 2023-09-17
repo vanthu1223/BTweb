@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <style>
+        body{
+            justify-content: center;
+            border: 2px solid black;
+            padding: 20px;
+            line-height: 1.6em;
+            max-width: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Câu lạc bộ sở thích</h1>
+        <form class="input">
+            <p>
+                Chọn Swimming : 500.000 <br>
+                Chọn Football : 600.000 <br>
+                Chọn Dancing : 200.000 <br>
+                Chọn Singer : 100.000 <br>
+            </p>
+            <p>
+                <label>Swimming :</label>
+                <input type="checkbox" id="swimming" value="1">
+                <label>Football :</label>
+                <input type="checkbox" id="football" value="1">
+                <label>Dancing :</label>
+                <input type="checkbox" id="dancing" value="1">
+                <label>Singer :</label>
+                <input type="checkbox" id="singer" value="1">
+            </p>
+            <p>Bạn là ai</p>
+            <p>
+                Chọn Sinh Viên được giảm 10% <br>
+                Chọn Học Sinh được giảm 30% <br>
+                Chọn Đi Làm được giảm 3% <br>
+            </p>
+            <p>
+                <label>Sinh Viên</label>
+                <input type="radio" name="sv" id="sinhvien" value="1">
+                <label>Hoc Sinh</label>
+                <input type="radio" name="sv" id="hocsinh" value="2">
+                <label>Đi Làm</label>
+                <input type="radio" name="sv" id="dilam" value="3">
+            </p>
+        </form>
+        <div>
+            <button onclick="myFunction()" type="button" style="padding: 10px; background-color: brown;color: white;margin-left: 20px;cursor: pointer;">Thanh Toán</button>
+            <p id="kq"></p>
+            <p id="total"></p>
+            <p id="discount"></p>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            var swimming = document.getElementById("swimming").checked;
+            var football = document.getElementById("football").checked;
+            var dancing = document.getElementById("dancing").checked;
+            var singer = document.getElementById("singer").checked;
+            var sinhvien=document.getElementById("sinhvien").checked;
+            var hocsinh=document.getElementById("hocsinh").checked;
+            var dilam=document.getElementById("dilam").checked;
+            var result = "";
+            var total=0;
+            var discount=0;
+            if (swimming) {
+                result += "Bạn Chọn khóa học Swimming với giá 500.000<br>";
+                total+=500.000;
+            }
+    
+            if (football) {
+                result += "Bạn Chọn khóa học Football với giá 600.000<br>";
+                total+=600.000;
+            }
+    
+            if (dancing) {
+                result += "Bạn Chọn khóa học Dancing với giá 200.000<br>";
+                total+=200.000;
+            }
+    
+            if (singer) {
+                result += "Bạn Chọn khóa học Singer với giá 100.000<br>";
+                total+=100.000;
+            }
+            if(sinhvien){
+                discount= total*(1-0.1);
+            }
+            else if(hocsinh){
+                discount=total*(1-0.3);
+            }
+            else{
+                discount=total*(1-0.03);
+            }
+            document.getElementById("kq").innerHTML = result;
+            document.getElementById("total").innerHTML = "Tổng tiền của bạn là :"+ total;
+            document.getElementById("discount").innerHTML="Tổng số tiền bạn được giảm là : "+discount; 
+        }
+    </script>
+</body>
+</html>

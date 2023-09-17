@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes</title>
+    <style>
+        body{
+            max-width: 100vh;
+            height: 600px;
+            justify-content: center;
+            text-align: center;
+            /* padding-left: 20px; */
+            margin: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Clothes</h1>
+        <form id="input">
+            <p>
+                <label>Product Name</label>
+                <input type="text" name="" id="product">
+            </p>
+            <p>
+                <label>Product Quantity</label>
+                <input type="number" name="" id="quantity">
+            </p>
+            <p>
+                <label>Product Price</label>
+                <input type="number" name="" id="price">
+            </p>
+        </form>
+        <button onclick="myClothes()" style="background-color: black;color: white; padding: 10px;">Add</button>
+        <table id="tbl" style="margin: 0 auto; width: 80%;">
+            <tr style="text-align: center;">
+                <th style="padding: 10px;">No</th>
+                <th style="padding: 10px;">Product</th>
+                <th style="padding: 10px;">Quantity</th>
+                <th style="padding: 10px;">Price</th>
+                <th style="padding: 10px;">Subtotal</th>
+            </tr>
+        </table>
+        <div>
+            <p>Total là : <span id="total"></span></p>
+        </div>
+        
+        <script>
+            var no=0;
+            var total=0;
+            function myClothes(){
+                no++;
+                var product=input.product.value;
+                var quantity=input.quantity.value;
+                var price=input.price.value;
+                var subTotal=quantity*price;
+                total+=subTotal;
+                var row ="<tr>";
+                    row+="<th>"+no+"</th>";
+                    row+="<th>"+product+"</th>";
+                    row+="<th>"+quantity+"</th>";
+                    row+="<th>"+price+"</th>";
+                    row+="<th>"+subTotal+"</th>";
+                row+="</tr>";
+                document.getElementById("tbl").innerHTML+=row;
+                document.getElementById("total").innerHTML+=total;
+            }
+        </script>
+
+    </div>
+    
+</body>
+</html>
