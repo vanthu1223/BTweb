@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Số Chẵn Và Số Lẻ</title>
+</head>
+<body>
+    <div class="row">
+        <p class="col-sm-2">Input x</p>
+        <input class="col-sm-3" type="text" name="" id="input-1">
+        <p class="col-sm-7"></p>
+    </div>
+    <div class="row">
+        <p class="col-sm-2">Kết Quả </p>
+        <p class="col-sm-3"  id="demo"></p>
+        <p class="col-sm-7"></p>
+    </div>
+    <button onclick="myFuncion()" style="padding: 10px;background-color: brown;border: none;">Ok</button>
+    <script>
+        function myFuncion(){
+            let number = parseInt(document.getElementById("input-1").value)
+            let kq=number%2;
+            switch(kq){
+                case 0:{
+                    document.getElementById("demo").innerHTML="Đây là số chẵn";
+                    break;
+                }
+                default:{
+                    document.getElementById("demo").innerHTML="Đây là số lẻ";
+                    break;
+            }
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,515 @@
+.group-child {
+    position: absolute;
+    top: 284px;
+    left: 467px;
+    width: 864px;
+    height: 664px;
+}
+.group-item {
+    position: absolute;
+    top: 198.63px;
+    left: 467px;
+    width: 864px;
+    height: 664px;
+}
+.group-inner {
+    position: absolute;
+    top: 190px;
+    left: 467px;
+    width: 900px;
+    height: 695px;
+}
+.vector-icon {
+    position: absolute;
+    top: 242px;
+    left: 467px;
+    width: 852px;
+    height: 590px;
+}
+.group-child1 {
+    position: absolute;
+    top: 119px;
+    left: 24px;
+    width: 1248.76px;
+    height: 759.62px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    width: 1280px;
+    height: 100px;
+}
+.ellipse-icon {
+    position: absolute;
+    top: 20.91px;
+    left: 91.91px;
+    width: 48.76px;
+    height: 48.76px;
+}
+.home1 {
+    position: absolute;
+    top: 50px;
+    left: 666px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.logo {
+    position: absolute;
+    top: 38px;
+    left: 176px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.about {
+    position: absolute;
+    top: 52px;
+    left: 823px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.contact-us {
+    position: absolute;
+    top: 54px;
+    left: 980px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.vector-group {
+    position: absolute;
+    top: 0px;
+    left: 443px;
+    width: 1304px;
+    height: 878.62px;
+    font-size: 24px;
+    font-family: Inter;
+}
+.towards {
+    position: absolute;
+    top: 218px;
+    left: 1212px;
+    display: inline-block;
+    width: 342px;
+    height: 74px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 146.04px;
+    left: 893.86px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #5d8cff, #7447fe);
+    width: 92.83px;
+    height: 92.83px;
+    transform:  rotate(36.55deg);
+    transform-origin: 0 0;
+}
+.group-child2 {
+    position: absolute;
+    top: 675.91px;
+    left: 1600.91px;
+    width: 48.76px;
+    height: 48.76px;
+}
+.excellence {
+    position: absolute;
+    top: 284px;
+    left: 1212px;
+    font-size: 64px;
+    display: inline-block;
+    width: 360px;
+    height: 82px;
+}
+.providing-you-with {
+    position: absolute;
+    top: 381px;
+    left: 1216px;
+    display: inline-block;
+    width: 417px;
+    height: 83px;
+}
+.group-child3 {
+    position: absolute;
+    top: 252px;
+    left: 779.35px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #5d8cff, #7447fe);
+    width: 49.29px;
+    height: 49.29px;
+    transform:  rotate(36.55deg);
+    transform-origin: 0 0;
+}
+.vector-parent {
+    position: absolute;
+    top: 0px;
+    left: -467px;
+    width: 1747px;
+    height: 948px;
+}
+.home {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36px;
+    color: #000;
+    font-family: 'El Messiri';
+}
+
+.about-child {
+    position: absolute;
+    top: 542px;
+    left: 137px;
+    width: 500px;
+    height: 200px;
+}
+.about-item {
+    position: absolute;
+    top: 205px;
+    left: 689px;
+    width: 500px;
+    height: 200px;
+}
+.about-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 100px;
+}
+.group-icon {
+    position: absolute;
+    top: 277.55px;
+    left: 637px;
+    width: 643px;
+    height: 554.45px;
+}
+.about-child1 {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    width: 529.8px;
+    height: 615.62px;
+}
+.ellipse-icon {
+    position: absolute;
+    top: 31.91px;
+    left: 42.91px;
+    width: 48.76px;
+    height: 48.76px;
+}
+.logo {
+    position: absolute;
+    top: 33px;
+    left: 139px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 6px;
+    left: 67px;
+    width: 1280px;
+    height: 100px;
+}
+.home {
+    position: absolute;
+    top: 56px;
+    left: 709px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.about1 {
+    position: absolute;
+    top: 58px;
+    left: 866px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.contact-us {
+    position: absolute;
+    top: 60px;
+    left: 1023px;
+    display: inline-block;
+    width: 131px;
+    height: 75px;
+}
+.about-us {
+    position: absolute;
+    top: 106px;
+    left: 421px;
+    font-size: 64px;
+    font-family: 'El Messiri';
+    display: inline-block;
+    width: 360px;
+    height: 82px;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 203px;
+    left: 709px;
+    font-size: 20px;
+    font-family: 'El Messiri';
+    display: inline-block;
+    width: 448px;
+    height: 160px;
+}
+.duis-aute-irure {
+    position: absolute;
+    top: 591px;
+    left: 137px;
+    font-size: 20px;
+    font-family: 'El Messiri';
+    text-align: right;
+    display: inline-block;
+    width: 456px;
+    height: 128px;
+}
+.about-1-1-icon {
+    position: absolute;
+    top: 160px;
+    left: 152px;
+    width: 311px;
+    height: 311px;
+    object-fit: cover;
+}
+.about-2-1-icon {
+    position: absolute;
+    top: 420px;
+    left: 775px;
+    width: 451px;
+    height: 423px;
+    object-fit: cover;
+}
+.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1280px;
+    height: 832px;
+    overflow: hidden;
+}
+.about-parent {
+    position: relative;
+    width: 100%;
+    height: 832px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 100px;
+}
+.group-item {
+    position: absolute;
+    top: 25.91px;
+    left: 33.91px;
+    width: 48.76px;
+    height: 48.76px;
+}
+.home {
+    position: absolute;
+    top: 42px;
+    left: 755px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.logo {
+    position: absolute;
+    top: 42px;
+    left: 139px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.contact-us1 {
+    position: absolute;
+    top: 42px;
+    left: 1081px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.about {
+    position: absolute;
+    top: 42px;
+    left: 892px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 126px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #58a6fa;
+    width: 1305px;
+    height: 200px;
+}
+.ellipse-icon {
+    position: absolute;
+    top: 32.61px;
+    left: 46.61px;
+    width: 134.65px;
+    height: 134.65px;
+}
+.home1 {
+    position: absolute;
+    top: 66px;
+    left: 758px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.about1 {
+    position: absolute;
+    top: 108px;
+    left: 755px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.quick-links {
+    position: absolute;
+    top: 8px;
+    left: 704px;
+    font-size: 36px;
+    display: inline-block;
+    width: 377px;
+    height: 100px;
+}
+.contact-us2 {
+    position: absolute;
+    top: 150px;
+    left: 755px;
+    display: inline-block;
+    width: 189px;
+    height: 84px;
+}
+.logo1 {
+    position: absolute;
+    top: 54px;
+    left: 221px;
+    font-size: 48px;
+    display: inline-block;
+    width: 265px;
+    height: 88px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 632px;
+    left: 0px;
+    width: 1305px;
+    height: 234px;
+    color: #fff;
+}
+.contact-us3 {
+    position: absolute;
+    top: 100px;
+    left: 473px;
+    font-size: 64px;
+    font-family: 'El Messiri';
+    display: inline-block;
+    width: 360px;
+    height: 82px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 420px;
+    height: 300px;
+}
+.icon-phone-1 {
+    position: absolute;
+    top: 33px;
+    left: 56px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.icon-mail-1 {
+    position: absolute;
+    top: 132px;
+    left: 56px;
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+}
+.icon-location-1 {
+    position: absolute;
+    top: 231px;
+    left: 61px;
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+.div {
+    position: absolute;
+    top: 41px;
+    left: 163px;
+    display: inline-block;
+    width: 230px;
+    height: 49px;
+}
+.examplegmailcom {
+    position: absolute;
+    top: 132px;
+    left: 163px;
+    display: inline-block;
+    width: 218px;
+    height: 54px;
+}
+.sn-tr- {
+    position: absolute;
+    top: 254px;
+    left: 163px;
+    display: inline-block;
+    width: 232px;
+    height: 54px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 234px;
+    left: 430px;
+    width: 420px;
+    height: 308px;
+    font-size: 20px;
+    font-family: 'El Messiri';
+}
+.contact-us {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+
+
+

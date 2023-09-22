@@ -26,17 +26,24 @@
     <hr class="new">
     <div class="row" style="padding-left: 20px;">
     </div>
-
     <script>
-        function myAdd(){
+        function myAdd() {
             var name = document.getElementById("product").value;
-            var img = document.getElementById("img").value;
+            var fileInput = document.getElementById("img");
             var price = document.getElementById("price").value;
-            let image = img.slice(11);
-            var html = `<div class="card"><img class="card-img-top" src="/image/img/${image}" alt="card image"></div><div class="card-body"><h5 class="card-name">${name}</h5><p class="card-text" id="price">${price}</p><a href="#" class="btn btn-success">Buy it</a></div>`;
-            let app = document.querySelector('.row');
-            app.innerHTML += html;
-            console.log(img);
+            
+            if (fileInput.files && fileInput.files[0]) {
+                var reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    var imageSrc = e.target.result;
+                    var html = `<div class="card"><img class="card-img-top" src="${imageSrc}" alt="card image"></div><div class="card-body"><h5 class="card-name">${name}</h5><p class="card-text" id="price">${price}</p><a href="#" class="btn btn-success">Buy it</a></div>`;
+                    var app = document.querySelector('.row');
+                    app.innerHTML += html;
+                }
+                
+                reader.readAsDataURL(fileInput.files[0]);
+            }
         }
     </script>
 </body>
