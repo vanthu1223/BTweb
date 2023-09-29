@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Form</h1>
+        <div>
+            <label> Nhập : </label>
+            <input type="text" id="fruit" > 
+        </div>
+        <div>
+            <label> Kết quả : </label>
+            <p id="kq"></p>
+            <button onclick="ok()" type="button">
+                oke
+            </button>
+        </div>
+    </div>
+    <script>
+        function ok(){
+        let arrayFruit=['Mận', 'Xoài', 'Cam','Bon Bon','Mỹ'];
+        let arrayValue=document.getElementById("fruit").value;
+        let array=[];
+        array.push(arrayFruit);
+        arrayFruit.push(arrayValue);
+        document.getElementById("kq").innerHTML=arrayFruit;
+        }
+     
+    </script>
+</body>
+</html>
